@@ -594,7 +594,19 @@ export const fontMappings: Record<string, FontInfo> = {
         // TODO: Add Akruti font reverse mapping
       }
     }
-  }
+  },
+  'marathi-lekhani-normal': {
+    name: 'marathi-lekhani-normal',
+    displayName: 'Marathi-Lekhani Normal',
+    mapping: {
+      unicode_to_font: {
+        // COMPLETE Marathi-Lekhani Unicode → legacy mapping
+      },
+      font_to_unicode: {
+      // COMPLETE Marathi-Lekhani legacy → Unicode mapping
+      }
+    }
+  },
 };
 
 // Get available fonts
